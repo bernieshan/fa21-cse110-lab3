@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "myFont";
+    src: url("Akronim-Regular.ttf");
+}
+
+@font-face {
+    font-family: "mainFont";
+    src: url("Montserrat-Regular.ttf");
+}
+
+/** Changes color of the background under the body section */
+body {
+    background-color: lightblue;
+}
+
+* {
+    font-family: "mainFont";
+}
+
+/** Changes location of the header as well as the color of the text */
+header{
+    color: rgb(234,12,232);
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    padding: 10px 10px 10px 10px;
+}
+
+h1 {
+    color: #0c00ff;
+    margin: 5px 2px 3px 7px;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 5px;
+    border-radius: 5px;
+    text-decoration: underline;
+    font-family: "myFont";
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    display: flex;
+    background-color: white;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+}
+
+h2 {
+    color: hsl(166, 42%, 44%);
+    padding-top: 1vh;
+    padding-bottom: 1vmin;
+    padding-left: 1vmax;
+    padding-right: 1rem;
+    border: 5px dashed greenyellow;
+    display: block;
+    position: static;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#attendancelist {
+    text-align: center;
+    border-style: dotted;
+}
+
+.myquote {
+    font-style: italic; 
+}
+
+a[href] {
+    background-color: yellow;
+}
+
+/* unvisited */
+a:link {
+  color: red;
+}
+
+/* visited */
+a:visited {
+  color: green;
+}
+
+/* hovering over */
+a:hover {
+  color: pink;
+}
+
+/* currently selected */
+a:active {
+  color: blue;
+}
+
+header p {
+    text-decoration: underline;
+}
+
+div > span {
+    text-decoration: underline;
+}
+
+h2 ~ ol {
+    text-decoration: underline;
+}
+
+li:first-of-type + li {
+    color: green;
+}
+
+.border.red-border {
+    border-color: red;
+    height: 100%;
+    width: 25%;
+    max-width: 25%;
+    max-height: 25%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    align-content: space-around;
+}
+
+.flexitem {
+    padding: 5px;
+    flex: 10%;
+}
+
+.grid {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto auto;
+}
+
+.griditem {
+    border: 1px solid gray;
+    padding: 5px;
+    text-align: center;
+    color: blue;
+}
+
+.week1 {
+    text-decoration: underline;
+    font-style: italic;
+    background-color: yellow;
+}
+
+@media (max-width: 800px) {
+    body {
+        background-color: aquamarine;
+    }
+}
+
+
+
+
+
+
+

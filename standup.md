@@ -1,5 +1,5 @@
 # Daily Standup Notes
-##### Date: <insert date here>
+##### Date: (insert date here)
 
 ## Questions to Consider:
 1. What did I work on yesterday?

@@ -6,22 +6,36 @@
         <link rel="icon"
               type="image/png"
               href="https://raw.githubusercontent.com/openintents/notepad/master/promotion/icons/ic_launcher_notepad_512.png"/>
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
         <header>
-            <div>Quick Navigate</div>
+            <div class="header"><p>Quick Navigate</p></div>
             <nav>
-                <ul>
-                    <li><a href="#attendance">Attendance List</a></li>
-                    <li><a href="#topics">Meeting Topics</a></li>
-                    <li><a href="#unfinished">Unfinished Topics from Last Meeting</a></li>
-                    <li><a href="#newtopics">New Business to Discuss</a></li>
-                    <li><a href="#misc">Miscellaneous Comments</a></li>
-                    <li><a href="#diagrams">Diagrams from Meeting</a></li>
-                    <li><a href="#audio">Audio Recording of Meeting</a></li>
-                    <li><a href="#video">Video Recording of Meeting</a></li>
+                <ul class="flex">
+                    <li class="flexitem"><a href="#attendance">Attendance List</a></li>
+                    <li class="flexitem"><a href="#topics">Meeting Topics</a></li>
+                    <li class="flexitem"><a href="#unfinished">Unfinished Topics from Last Meeting</a></li>
+                    <li class="flexitem"><a href="#newtopics">New Business to Discuss</a></li>
+                    <li class="flexitem"><a href="#misc">Miscellaneous Comments</a></li>
+                    <li class="flexitem"><a href="#diagrams">Diagrams from Meeting</a></li>
+                    <li class="flexitem"><a href="#audio">Audio Recording of Meeting</a></li>
+                    <li class="flexitem"><a href="#video">Video Recording of Meeting</a></li>
                 </ul>
             </nav>
+
+            <div class="grid">
+                <div class="griditem week1">Week 1</div>
+                <div class="griditem week2">Week 2</div>
+                <div class="griditem week3">Week 3</div>
+                <div class="griditem week4">Week 4</div>
+                <div class="griditem week5">Week 5</div>
+                <div class="griditem week6">Week 6</div>
+                <div class="griditem week7">Week 7</div>
+                <div class="griditem week8">Week 8</div>
+                <div class="griditem week9">Week 9</div>
+                <div class="griditem week10">Week 10</div>
+            </div>
         </header>
         <main>
             <h1>CSE 110 Group Project Meeting Minutes</h1> 
@@ -32,7 +46,7 @@
 
             <section>
             <h2 id="attendance">Attendance List:</h2>
-            <ul>
+            <ul class='border red-border' id="attendancelist">
                 <li>Jeffrey Bezos</li>
                 <li>Elon Musk</li>
                 <li>Professor Powell</li>
@@ -71,16 +85,20 @@
 
             <section>
             <h2 id="misc">Miscellaneous Comments:</h2>
-            <h3>During this Meeting, Professor Powell indicated that he would like to have refreshments served at future meetings.
-                He believes that refreshments will allow us to work more effectively.
-            </h3>
-            <br>
-            <h3>Bernie agrees with this idea and will bring chocolate chip cookies and water bottles to the next meeting</h3>
+            <p class="myquote">During this Meeting, Professor Powell indicated that he would like to have refreshments served at future meetings.
+                He believes that refreshments will allow us to work more effectively. Bernie agrees with this idea and will bring chocolate chip cookies and water bottles to the next meeting
+            </p>
+
+            <div>
+                <span>
+                    For future meetings, there will refreshments!
+                </span>
+            </div>
             </section>
 
             <hr/>
 
-            <section>
+            <section id="diagram">
             <h2 id="diagrams">Diagrams Presented in Meeting:</h2>
             <img
                 src="https://preview.redd.it/7eymip3rl3w51.png?width=960&crop=smart&auto=webp&s=f8c35c0cdc936191f36efc33b750376a481e1826"

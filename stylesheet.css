@@ -27,24 +27,6 @@ header{
     padding: 10px 10px 10px 10px;
 }
 
-h1 {
-    color: #0c00ff;
-    margin: 5px 2px 3px 7px;
-    border-style: solid;
-    border-color: aqua;
-    border-width: 5px;
-    border-radius: 5px;
-    text-decoration: underline;
-    font-family: "myFont";
-    position: -webkit-sticky;
-    position: sticky;
-    top: 10px;
-    display: flex;
-    background-color: white;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-}
 
 h2 {
     color: hsl(166, 42%, 44%);
